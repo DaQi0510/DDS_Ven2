@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : DDS.brd                                       )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sun Apr 23 22:20:08 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR IN ARC SEGMENT center = (3215.886 1243.424)
+  class = ETCH
+  subclass = TOP 
+  ERROR(SPMHUT-144): Illegal arc specification.
+   Error was fixed.
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:01
+
+0 warnings, 1 errors detected, 1 errors  fixed.

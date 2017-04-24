@@ -1,0 +1,64 @@
+Fri Apr 21 15:45:00 2017				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Fri Apr 21 15:45:00 2017
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : DDS.brd                                       )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Fri Apr 21 15:45:01 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Apr 21 15:45:01 2017				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'F:/对外部分项目/信号发生器改版/Hardware/Pcb/DDS.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/DaQi/AppData/Local/Temp/#Taaaaad02912.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  F:/CADENCE LIB/cadence-lib-new/PSM/ 
+
+PADPATH =  F:/CADENCE LIB/cadence-lib-new/PAD/ 
+
+
+------ Symbol Refresh Messages ------
+
+'DB25-G'  symbol refreshed successfully.
+'DB25-M'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 2 out 2
+    Design updated.
+
