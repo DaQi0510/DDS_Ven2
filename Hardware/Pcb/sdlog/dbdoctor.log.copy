@@ -1,3 +1,4 @@
+<HTML><HEAD><STYLE TYPE="text/css">.errorMessage { color:darkred; font-weight:bold; font-style:italic; text-decoration:underline; }</STYLE></HEAD><BODY><PRE>
 (---------------------------------------------------------------------)
 (                                                                     )
 (    DBDOCTOR                                                         )
@@ -10,12 +11,14 @@
 
 
 
-ERROR IN ARC SEGMENT center = (3215.886 1243.424)
+ERROR IN ARC SEGMENT center = <a href="xprobe:xy:3215.886 1243.424">(3215.886 1243.424)</a>
   class = ETCH
   subclass = TOP 
-  ERROR(SPMHUT-144): Illegal arc specification.
+  <b><i><font color="darkred">ERROR(SPMHUT-144)</i></b></font>: Illegal arc specification.
    Error was fixed.
 
-WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
+WARNING   <b><i><font color="darkred">WARNING(SPMHDB-42)</i></b></font>: Run batch DRC to correctly regenerate DRC errs.
 
 1 warnings, 1 errors detected, 1 errors  fixed.
+</PRE>
+</BODY></HTML>

@@ -4,15 +4,10 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sun May 07 11:08:11 2017                      )
+(    Date/Time        : Mon Apr 24 10:57:07 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
-
-
- ******************************************
- WARNING: DRC OUT OF DATE on this layout.
- ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -209,10 +204,6 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(3605.000 1200.559) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(4227.261 887.150) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -251,7 +242,6 @@ Results from parameter file ...
   RECTANGLE  0.07677     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874       0.000 NO     DARK 
   RECTANGLE  0.13583     x 0.10039      90.000 NO     DARK 
-  OBLONG     0.04921     x 0.02165      90.000 NO     DARK 
   OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
      TOP created with warnings
@@ -290,7 +280,7 @@ Results from parameter file ...
   CIRCLE     0.09842                                  DARK 
   CIRCLE     0.17716                                  DARK 
 
-     BOTTOM created with warnings
+     BOTTOM created.
 
 
 ================================================================
@@ -378,10 +368,9 @@ Results from parameter file ...
   RECTANGLE  0.07677     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874       0.000 NO     DARK 
   RECTANGLE  0.13583     x 0.10039      90.000 NO     DARK 
-  OBLONG     0.04921     x 0.02165      90.000 NO     DARK 
   OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
-     SOLDERMASK_TOP created with warnings
+     SOLDERMASK_TOP created.
 
 
 ================================================================
@@ -412,7 +401,7 @@ Results from parameter file ...
   CIRCLE     0.09842                                  DARK 
   CIRCLE     0.17716                                  DARK 
 
-     SOLDERMASK_BOTTOM created with warnings
+     SOLDERMASK_BOTTOM created.
 
 
 ================================================================
@@ -439,7 +428,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00394                                  DARK 
 
-     SILKSCREEN_BOTTOM created with warnings
+     SILKSCREEN_BOTTOM created.
 
 
 ================================================================
@@ -472,7 +461,7 @@ Results from parameter file ...
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01968                                  DARK 
 
-     SILKSCREEN_TOP created with warnings
+     SILKSCREEN_TOP created.
 
 
 ================================================================
@@ -516,10 +505,9 @@ Results from parameter file ...
   RECTANGLE  0.07677     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.09367     x 0.05823      90.000 NO     DARK 
   RECTANGLE  0.12795     x 0.07874       0.000 NO     DARK 
-  OBLONG     0.04921     x 0.02165      90.000 NO     DARK 
   OBLONG     0.05118     x 0.01575      90.000 NO     DARK 
 
-     PASTEMASK_TOP created with warnings
+     PASTEMASK_TOP created.
 
 
 ================================================================
@@ -546,19 +534,19 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00394                                  DARK 
 
-     PASTEMASK_BOTTOM created with warnings
+     PASTEMASK_BOTTOM created.
 
 
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
-        BOTTOM created with warnings
+        BOTTOM created.
         DRILL created with warnings
-        SOLDERMASK_TOP created with warnings
-        SOLDERMASK_BOTTOM created with warnings
-        SILKSCREEN_BOTTOM created with warnings
-        SILKSCREEN_TOP created with warnings
-        PASTEMASK_TOP created with warnings
-        PASTEMASK_BOTTOM created with warnings
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        SILKSCREEN_BOTTOM created.
+        SILKSCREEN_TOP created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
 
  ARTWORK had warnings

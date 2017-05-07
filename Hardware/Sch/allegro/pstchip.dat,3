@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Apr-23-2017 at 22:46:19}
+{ Using PSTWRITER 16.6.0 d001May-07-2017 at 09:25:59}
 primitive 'CAP_0603_0.1UF';
   pin
     '1':
@@ -133,6 +133,36 @@ primitive 'CAP_1206_22UF';
     PART_NAME='Cap';
     JEDEC_TYPE='1206';
     VALUE='22uF';
+  end_body;
+end_primitive;
+primitive 'CAP_0603_0.01UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Cap';
+    JEDEC_TYPE='0603';
+    VALUE='0.01uF';
+  end_body;
+end_primitive;
+primitive 'CAP_0603_1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Cap';
+    JEDEC_TYPE='0603';
+    VALUE='1uF';
   end_body;
 end_primitive;
 primitive '1N5819_SMA_B340A-13-F';
@@ -742,6 +772,30 @@ primitive 'LED_LED0805_RED';
     PART_NAME='LED';
     JEDEC_TYPE='LED0805';
     VALUE='RED';
+  end_body;
+end_primitive;
+primitive 'LT1964-5_LT1964-5-SOT23_LT1964-';
+  pin
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'IN':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'BYP':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'S\H\D\N\':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LT1964-5';
+    JEDEC_TYPE='LT1964-5-SOT23';
+    VALUE='LT1964-5';
   end_body;
 end_primitive;
 primitive 'AD8622_LM334SM-SOP8_OPA2350';

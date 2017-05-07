@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Sun Apr 23 22:19:28 2017                      )
+(    Date/Time        : Mon Apr 24 10:54:35 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -58,5 +58,5 @@ Drill files being output to directory 'F:/对外部分项目/信号发生器改版V2.0/Hardwa
 
      ---- Total holes:                                        404
 
-     ---- Total head travel:              8.63 feet (2.63 meters)
+     ---- Total head travel:              8.61 feet (2.62 meters)
 

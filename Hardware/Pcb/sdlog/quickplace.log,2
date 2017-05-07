@@ -1,0 +1,31 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : DDS.brd                                       )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sun May 07 09:34:46 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U16 / LT1964-5_LT1964-5-SOT23_LT1964- / LT1964-5-SOT23 at (62.724 2360.363)
+         Placed symbol:  C75 / CAP_0603_0.01UF / 0603 at (199.169 2321.977)
+         Placed symbol:  C79 / CAP_0603_0.01UF / 0603 at (298.705 2321.977)
+         Placed symbol:  C76 / CAP_0603_0.01UF / 0603 at (398.241 2321.977)
+         Placed symbol:  C81 / CAP_0603_1UF / 0603 at (497.777 2321.977)
+         Placed symbol:  C74 / CAP_0603_0.01UF / 0603 at (597.313 2321.977)
+         Placed symbol:  C77 / CAP_0603_0.1UF / 0603 at (696.849 2321.977)
+         Placed symbol:  C82 / CAP_0603_0.1UF / 0603 at (796.385 2321.977)
+         Placed symbol:  C83 / CAP_0603_0.1UF / 0603 at (895.921 2321.977)
+         Placed symbol:  C78 / CAP_0805_10UF / 0805 at (1005.299 2330.836)
+         Placed symbol:  C84 / CAP_0805_10UF / 0805 at (1124.519 2330.836)
+         Placed symbol:  C80 / CAP_1206_22UF / 1206 at (1267.361 2337.725)
+
+
+Placed 12 of 12 applicable (12 total) symbols.
+
+-----------------------------------------------------------------------
+

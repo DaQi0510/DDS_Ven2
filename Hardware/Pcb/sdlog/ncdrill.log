@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Mon Apr 24 10:54:35 2017                      )
+(    Date/Time        : Sun May 07 11:06:29 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -48,7 +48,7 @@ Drill files being output to directory 'F:/对外部分项目/信号发生器改版V2.0/Hardwa
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.  12.0000    0.0000/  0.0000      PLATED        273
+            1.  12.0000    0.0000/  0.0000      PLATED        286
             2.  35.4330    0.0000/  0.0000      PLATED         47
             3.  39.3700    0.0000/  0.0000      PLATED          6
             4.  47.2440    0.0000/  0.0000      PLATED         50
@@ -56,7 +56,7 @@ Drill files being output to directory 'F:/对外部分项目/信号发生器改版V2.0/Hardwa
             6. 125.9840    0.0000/  0.0000      PLATED          4
             7. 157.4800    0.0000/  0.0000      PLATED          4
 
-     ---- Total holes:                                        404
+     ---- Total holes:                                        417
 
-     ---- Total head travel:              8.61 feet (2.62 meters)
+     ---- Total head travel:              8.82 feet (2.69 meters)
 

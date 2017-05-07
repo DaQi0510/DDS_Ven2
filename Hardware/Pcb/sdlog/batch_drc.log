@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Mon Apr 24 10:56:08 2017                      )
+(    Date/Time        : Sun May 07 10:53:31 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,6 +22,6 @@
 
  ..... Total number of DRC errors  0
 
- ..... DRC update completed, total CPU time   0:00:01
+ ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
 

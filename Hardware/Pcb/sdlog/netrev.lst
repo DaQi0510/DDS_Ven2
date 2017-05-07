@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DDS.brd                                       )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Mon Apr 24 09:26:30 2017                      )
+(    Date/Time        : Sun May 07 09:26:37 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,7 +22,7 @@ Design Directory:            '.'
 Old design name:             'F:/对外部分项目/信号发生器改版V2.0/Hardware/Pcb/DDS.brd'
 New design name:             'F:/对外部分项目/信号发生器改版V2.0/Hardware/Pcb/DDS.brd'
 
-CmdLine: netrev -$ -i F:/对外部分项目/信号发生器改版V2.0/Hardware/Sch/allegro -y 2 -q netrev_constraint_report.xml F:/对外部分项目/信号发生器改版V2.0/Hardware/Pcb/#Taaaaab05560.tmp
+CmdLine: netrev -$ -i F:/对外部分项目/信号发生器改版V2.0/Hardware/Sch/allegro -y 2 -q netrev_constraint_report.xml F:/对外部分项目/信号发生器改版V2.0/Hardware/Pcb/#Taaaaad04136.tmp
 
 ------ Preparing to read pst files ------
 
@@ -48,7 +48,7 @@ PADPATH =  F:/CADENCE LIB/cadence-lib-new/PAD/
 ------ Summary Statistics ------
 
 
-netrev run on Apr 24 9:26:30 2017
+netrev run on May 7 9:26:37 2017
    DESIGN NAME : 'DDS'
    PACKAGING ON Feb 15 2016 19:53:59
 
@@ -73,6 +73,6 @@ netrev run on Apr 24 9:26:30 2017
  No oversight detected
  No warning detected
 
-cpu time      0:01:29
-elapsed time  0:00:00
+cpu time      0:01:54
+elapsed time  0:00:01
 

@@ -78,7 +78,24 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "TRUE")
-    (BOM_View_Output "FALSE"))
+    (BOM_View_Output "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\DDS.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Outputs"
     (File ".\dds.drc"
       (Type "Report"))
@@ -173,14 +190,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 555"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 930 50 410")
-        (Scroll "1133 104")
-        (Zoom "264")
+        (Scroll "1013 166")
+        (Zoom "348")
         (Occurrence "/MCU"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "MCU")
@@ -189,7 +206,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 955 75 435")
-        (Scroll "269 0")
+        (Scroll "0 226")
         (Zoom "132")
         (Occurrence "/DDS"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
@@ -199,7 +216,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 753 125 489")
-        (Scroll "0 475")
+        (Scroll "0 310")
         (Zoom "104")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
@@ -209,11 +226,11 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 150 778 150 514")
-        (Scroll "73 131")
+        (Scroll "0 131")
         (Zoom "132"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 716 125 489")
-        (Scroll "188 286")
+        (Scroll "188 46")
         (Zoom "200")
         (Occurrence "/TFTLCD"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
@@ -223,7 +240,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 641 50 414")
-        (Scroll "1679 121")
+        (Scroll "441 952")
         (Zoom "264")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
@@ -233,8 +250,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 666 75 439")
-        (Scroll "1550 625")
-        (Zoom "264")
+        (Scroll "0 0")
+        (Zoom "87")
         (Occurrence "/"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "TOP")
