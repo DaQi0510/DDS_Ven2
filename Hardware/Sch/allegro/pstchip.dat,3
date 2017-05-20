@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001May-07-2017 at 09:25:59}
+{ Using PSTWRITER 16.6.0 d001May-08-2017 at 10:04:48}
 primitive 'CAP_0603_0.1UF';
   pin
     '1':
@@ -453,7 +453,7 @@ primitive 'RES_0603_3K';
     VALUE='3K';
   end_body;
 end_primitive;
-primitive 'RES_0603_120K';
+primitive 'RES_0603_2.7K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -465,7 +465,22 @@ primitive 'RES_0603_120K';
   body
     PART_NAME='Res';
     JEDEC_TYPE='0603';
-    VALUE='120K';
+    VALUE='2.7K';
+  end_body;
+end_primitive;
+primitive 'RES_0603_130K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='130K';
   end_body;
 end_primitive;
 primitive 'RES_0603_100K';
@@ -481,21 +496,6 @@ primitive 'RES_0603_100K';
     PART_NAME='Res';
     JEDEC_TYPE='0603';
     VALUE='100K';
-  end_body;
-end_primitive;
-primitive 'RES_0603_3.1K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0603';
-    VALUE='3.1K';
   end_body;
 end_primitive;
 primitive 'MAX903_LM334SM-SOP8_MAX903';
@@ -796,6 +796,30 @@ primitive 'LT1964-5_LT1964-5-SOT23_LT1964-';
     PART_NAME='LT1964-5';
     JEDEC_TYPE='LT1964-5-SOT23';
     VALUE='LT1964-5';
+  end_body;
+end_primitive;
+primitive 'NCV551SN50T1_LT1964-5-SOT23_NCV';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'EN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NCV551SN50T1';
+    JEDEC_TYPE='LT1964-5-SOT23';
+    VALUE='NCV551SN50T1';
   end_body;
 end_primitive;
 primitive 'AD8622_LM334SM-SOP8_OPA2350';

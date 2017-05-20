@@ -185,7 +185,7 @@
       (Path "Design Resources" ".\dds.dsn" "Power")
       (Path "Design Resources" ".\dds.dsn" "TFTLCD")
       (Path "Outputs")
-      (Select "Design Resources" ".\dds.dsn" "MCU" "MCU"))
+      (Select "Design Resources" ".\dds.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -195,7 +195,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 930 50 410")
+        (Placement "44 0 1 -1 -1 -8 -30 50 930 50 410")
         (Scroll "1013 166")
         (Zoom "348")
         (Occurrence "/MCU"))
@@ -206,8 +206,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 955 75 435")
-        (Scroll "0 226")
-        (Zoom "132")
+        (Scroll "123 425")
+        (Zoom "174")
         (Occurrence "/DDS"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "DDS")
@@ -239,23 +239,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 641 50 414")
-        (Scroll "441 952")
-        (Zoom "264")
+        (Placement "44 2 3 -1 -1 -8 -30 50 641 50 414")
+        (Scroll "0 405")
+        (Zoom "174")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Power")
-      (Page "Power"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 666 75 439")
-        (Scroll "0 0")
-        (Zoom "87")
-        (Occurrence "/"))
-      (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
-      (Schematic "TOP")
-      (Page "TOP")))
+      (Page "Power")))
   (MPSSessionName "DaQi")
   (LastUsedLibraryBrowseDirectory "F:\CADENCE LIB\cadence-lib-new")
   (ISPCBBASICLICENSE "false"))

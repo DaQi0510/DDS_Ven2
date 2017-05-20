@@ -1,7 +1,0 @@
-INFO: Loaded existing interconnect file 'F:\对外部分项目\信号发生器改版V2.0\Hardware\Pcb\interconn.iml'
-INFO: Loaded existing interconnect file 'D:\Cadence\Cadence_SPB_16.6-2015\share\pcb\signal\cds_interconn.iml'
-INFO: Finished loading SigNoise interconnect libraries
-INFO: Field Solver bem2d for STL_0S_1R_3
-INFO: Executing command: bem2d 0 "C:/Users/DaQi/AppData/Local/Temp/#Taaaaaf14068.in" 0.00127
-INFO: Field Solver bem2d for STL_0S_1R_4
-INFO: Executing command: bem2d 0 "C:/Users/DaQi/AppData/Local/Temp/#Taaaaag14068.in" 0.00127
