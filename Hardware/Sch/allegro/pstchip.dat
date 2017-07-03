@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001May-20-2017 at 21:48:23}
+{ Using PSTWRITER 16.6.0 d001Jun-01-2017 at 15:31:30}
 primitive 'CAP_0603_0.1UF';
   pin
     '1':
@@ -798,28 +798,22 @@ primitive 'LT1964-5_LT1964-5-SOT23_LT1964-';
     VALUE='LT1964-5';
   end_body;
 end_primitive;
-primitive 'NCV551SN50T1_LT1964-5-SOT23_NCV';
+primitive 'LP38691DT-5_LP38691DT-5_LP38691';
   pin
     'VIN':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'VOUT':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
     'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'EN':
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'NC':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'OUT':
-      PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='NCV551SN50T1';
-    JEDEC_TYPE='LT1964-5-SOT23';
-    VALUE='NCV551SN50T1';
+    PART_NAME='LP38691DT-5';
+    JEDEC_TYPE='LP38691DT-5';
+    VALUE='LP38691DT-5';
   end_body;
 end_primitive;
 primitive 'AD8622_LM334SM-SOP8_OPA2350';

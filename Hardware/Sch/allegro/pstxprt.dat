@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001May-20-2017 at 21:48:23 }
+{ Using PSTWRITER 16.6.0 d001Jun-01-2017 at 15:31:30 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='DDS';
@@ -828,22 +828,22 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C85 'CAP_0603_1UF':;
+ C87 'CAP_0603_1UF':;
 
 SECTION_NUMBER 1
- '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS208357@MYLIBRARY.CAP.NORMAL(CHIPS)':
- C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins208357@mylibrary.\cap.normal\(chips)',
- P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins208357@mylibrary.\cap.normal\(chips)',
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS210002@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins210002@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins210002@mylibrary.\cap.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C86 'CAP_0805_10UF':;
+ C88 'CAP_0805_10UF':;
 
 SECTION_NUMBER 1
- '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS208397@MYLIBRARY.CAP.NORMAL(CHIPS)':
- C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins208397@mylibrary.\cap.normal\(chips)',
- P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins208397@mylibrary.\cap.normal\(chips)',
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS210030@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins210030@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins210030@mylibrary.\cap.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1748,12 +1748,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U17 'NCV551SN50T1_LT1964-5-SOT23_NCV':;
+ U17 'LP38691DT-5_LP38691DT-5_LP38691':;
 
 SECTION_NUMBER 1
- '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS208323@MYLIBRARY.NCV551SN50T1.NORMAL(CHIPS)':
- C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins208323@mylibrary.\ncv551sn50t1.normal\(chips)',
- P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins208323@mylibrary.\ncv551sn50t1.normal\(chips)',
+ '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS209510@MYLIBRARY.LP38691DT-5.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins209510@mylibrary.\lp38691dt-5.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins209510@mylibrary.\lp38691dt-5.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

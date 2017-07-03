@@ -69,7 +69,7 @@
     (Backannotation_TAB "1")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "F:\对外部分项目\信号发生器改版\HARDWARE\SCH\DDS.BOM")
+    (BOM_Report_File "F:\对外部分项目\信号发生器改版V2.0\Hardware\Sch\BOM.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
@@ -109,9 +109,15 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\dds.bom"
+      (Type "Report"))
+    (File ".\bom.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (LP38691DT-5
+      (FullPartName "LP38691DT-5.Normal")
+      (LibraryName "F:\CADENCE LIB\CADENCE-LIB-NEW\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
     (PORTBOTH-R
       (LibraryName
          "D:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -179,13 +185,12 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\dds.dsn")
       (Path "Design Resources" ".\dds.dsn" "TOP")
-      (Path "Design Resources" ".\dds.dsn" "DDS")
       (Path "Design Resources" ".\dds.dsn" "MCU")
       (Path "Design Resources" ".\dds.dsn" "Module")
       (Path "Design Resources" ".\dds.dsn" "Power")
       (Path "Design Resources" ".\dds.dsn" "TFTLCD")
       (Path "Outputs")
-      (Select "Design Resources" ".\dds.dsn"))
+      (Select "Design Resources" ".\dds.dsn" "Power" "Power"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -196,8 +201,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 930 50 410")
-        (Scroll "1013 166")
-        (Zoom "348")
+        (Scroll "0 0")
+        (Zoom "108")
         (Occurrence "/MCU"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "MCU")
@@ -206,7 +211,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 955 75 435")
-        (Scroll "123 425")
+        (Scroll "289 238")
         (Zoom "174")
         (Occurrence "/DDS"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
@@ -216,8 +221,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 753 125 489")
-        (Scroll "0 310")
-        (Zoom "104")
+        (Scroll "2244 167")
+        (Zoom "340")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Module")
@@ -230,8 +235,8 @@
         (Zoom "132"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 716 125 489")
-        (Scroll "188 46")
-        (Zoom "200")
+        (Scroll "373 218")
+        (Zoom "216")
         (Occurrence "/TFTLCD"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "TFTLCD")
@@ -239,13 +244,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 641 50 414")
-        (Scroll "0 405")
-        (Zoom "174")
+        (Placement "44 0 1 -1 -1 -8 -30 50 641 50 414")
+        (Scroll "571 153")
+        (Zoom "348")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Power")
-      (Page "Power")))
+      (Page "Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 25 890 25 393")
+        (Scroll "0 131")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
+      (Schematic "TOP")
+      (Page "TOP")))
   (MPSSessionName "DaQi")
   (LastUsedLibraryBrowseDirectory "F:\CADENCE LIB\cadence-lib-new")
   (ISPCBBASICLICENSE "false"))

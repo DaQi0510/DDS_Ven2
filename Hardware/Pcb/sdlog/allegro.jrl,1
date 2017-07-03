@@ -1,0 +1,211 @@
+\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:01)     Journal start - Sat Jun 24 21:05:26 2017
+\t (00:00:01)         Host=DAQI-PC User=DaQi Pid=8380 CPUs=4
+\t (00:00:01) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: F:/对外部分项目/信号发生器改版V2.0/Hardware/Pcb/DDS.brd
+\i (00:00:03) trapsize 12891
+\i (00:00:04) trapsize 12659
+\i (00:00:04) trapsize 12930
+\i (00:00:06) trapsize 11420
+\i (00:00:06) trapsize 11420
+\i (00:00:07) shapeedit 
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 2573.899 -184.624
+\i (00:00:08) trapsize 22841
+\i (00:00:17) setwindow form.vf_vis
+\i (00:00:17) FORM vf_vis colorview_list Film: SILKSCREEN_TOP 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 649.057 655.919
+\i (00:00:27) trapsize 11420
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 649.057 655.920
+\i (00:00:27) trapsize 22841
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 649.058 655.919
+\i (00:00:28) trapsize 45682
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 2024.075 -212.032
+\i (00:00:28) trapsize 22841
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 1667.759 -568.349
+\i (00:00:30) trapsize 11420
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 1660.907 -566.065
+\i (00:00:30) trapsize 22841
+\i (00:00:32) roam start
+\i (00:00:32) roam x -80
+\i (00:00:32) roam x -112
+\i (00:00:32) roam y -16
+\i (00:00:32) roam x -16
+\i (00:00:32) roam y -16
+\i (00:00:33) roam x 16
+\i (00:00:33) roam x 16
+\i (00:00:33) roam x 16
+\i (00:00:33) roam x 16
+\i (00:00:33) roam x 16
+\i (00:00:34) roam x 16
+\i (00:00:34) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam end
+\i (00:00:38) plot setup 
+\i (00:00:44) setwindow form.fpfileplotsetup
+\i (00:00:44) FORM fpfileplotsetup fpplotscaling YES 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) pick grid -241.736 2471.755
+\t (00:00:47) last pick:  -242.000 2472.000
+\i (00:00:47) shapeedit 
+\i (00:01:04) setwindow form.fpfileplotsetup
+\i (00:01:04) FORM fpfileplotsetup windows  
+\i (00:01:09) FORM fpfileplotsetup fpplotnonvectortext YES 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) drag_start grid -200.623 2439.778
+\i (00:01:13) drag_stop 5377.111 -429.032
+\i (00:01:20) setwindow form.fpfileplotsetup
+\i (00:01:20) FORM fpfileplotsetup fpplotnonvectortext NO 
+\i (00:01:21) FORM fpfileplotsetup general  
+\i (00:01:32) FORM fpfileplotsetup fpplotsheetcontents YES 
+\i (00:01:34) FORM fpfileplotsetup windows  
+\i (00:01:36) FORM fpfileplotsetup done  
+\i (00:01:36) setwindow pcb
+\i (00:01:36) shapeedit 
+\i (00:01:39) plot preview 
+\i (00:01:39) trapsize 22054
+\e (00:01:39) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:01:39) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:01:44) trapsize 22841
+\i (00:01:48) viewlog -browse 
+\i (00:01:51) fillin "menu_cancel"
+\i (00:01:55) plot setup 
+\i (00:01:57) setwindow form.fpfileplotsetup
+\i (00:01:57) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:02:00) FORM fpfileplotsetup fpplotscreencontents YES 
+\i (00:02:07) FORM fpfileplotsetup windows  
+\i (00:02:09) FORM fpfileplotsetup done  
+\i (00:02:09) setwindow pcb
+\i (00:02:09) shapeedit 
+\i (00:02:15) plot preview 
+\i (00:02:15) trapsize 22054
+\e (00:02:15) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:02:15) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:02:28) trapsize 22841
+\i (00:02:37) plot setup 
+\i (00:02:47) setwindow form.fpfileplotsetup
+\i (00:02:47) FORM fpfileplotsetup fpipfvectortext YES 
+\i (00:02:48) FORM fpfileplotsetup fpipfvectortext NO 
+\i (00:02:51) FORM fpfileplotsetup windows  
+\i (00:03:00) FORM fpfileplotsetup fpplotnonvectortext YES 
+\i (00:03:05) FORM fpfileplotsetup done  
+\i (00:03:05) setwindow pcb
+\i (00:03:05) shapeedit 
+\i (00:03:10) plot preview 
+\i (00:03:10) trapsize 22054
+\e (00:03:10) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:03:10) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:03:22) trapsize 22841
+\i (00:03:26) plot setup 
+\i (00:03:29) setwindow form.fpfileplotsetup
+\i (00:03:29) FORM fpfileplotsetup windows  
+\i (00:04:31) FORM fpfileplotsetup general  
+\i (00:04:32) FORM fpfileplotsetup fpplotscaling YES 
+\i (00:04:40) FORM fpfileplotsetup fpplotscale 2.00 
+\i (00:04:40) FORM fpfileplotsetup done  
+\i (00:04:40) setwindow pcb
+\i (00:04:40) shapeedit 
+\i (00:04:44) plot preview 
+\i (00:04:44) trapsize 22054
+\e (00:04:44) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:04:44) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:04:56) trapsize 22841
+\i (00:05:01) plot setup 
+\i (00:05:16) setwindow form.fpfileplotsetup
+\i (00:05:16) FORM fpfileplotsetup fpplotscale 1.50 
+\i (00:05:16) FORM fpfileplotsetup done  
+\i (00:05:16) setwindow pcb
+\i (00:05:16) shapeedit 
+\i (00:05:19) plot preview 
+\i (00:05:19) trapsize 22054
+\e (00:05:19) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:05:19) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:05:27) trapsize 22841
+\i (00:05:29) roam start
+\i (00:05:29) roam x 16
+\i (00:05:29) roam x 32
+\i (00:05:29) roam y -16
+\i (00:05:29) roam x 32
+\i (00:05:30) roam y 16
+\i (00:05:30) roam y 16
+\i (00:05:31) roam end
+\i (00:05:34) plot preview 
+\i (00:05:34) trapsize 22054
+\e (00:05:34) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:05:34) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:05:38) trapsize 22841
+\i (00:05:41) roam start
+\i (00:05:41) roam x 32
+\i (00:05:41) roam x 32
+\i (00:05:42) roam x -16
+\i (00:05:42) roam x -16
+\i (00:05:42) roam x -16
+\i (00:05:42) roam x -16
+\i (00:05:43) roam x 16
+\i (00:05:44) roam end
+\i (00:05:50) plot preview 
+\i (00:05:50) trapsize 22054
+\e (00:05:50) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:05:50) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:05:55) trapsize 22841
+\e (00:05:55) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:05:55) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:06:06) plot setup 
+\i (00:06:09) setwindow form.fpfileplotsetup
+\i (00:06:09) FORM fpfileplotsetup cancel  
+\i (00:06:09) setwindow pcb
+\i (00:06:09) shapeedit 
+\i (00:06:15) plot 
+\w (00:06:15) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\e (00:06:15) ERROR(SPMHMF-236): Unable to initialize plotting (Step 2) to '' ... error 0.
+\e (00:06:15) ERROR(SPMHMF-236): Unable to initialize plotting (Step 4) to '' ... error 0.
+\i (00:06:22) plotwint initialize "发送至 OneNote 2010"
+\i (00:06:22) plotwint orientation 1
+\i (00:06:22) plotwint papername "A4"
+\i (00:06:22) plotwint copies 1
+\i (00:06:22) plotwint defaultsource 15
+\i (00:06:22) plotwint printquality 600
+\i (00:06:22) plotwint color 2
+\i (00:06:22) plotwint execute
+\e (00:06:22) ERROR(SPMHMF-239): Font 'Courier' for non-vectorized text was not found ... plotting aborted..
+\e (00:06:22) ERROR(SPMHMF-240): Try 'View available fonts' in Plot Setup ...
+\i (00:06:33) plot preview 
+\i (00:06:33) trapsize 22054
+\i (00:06:36) trapsize 22841
+\i (00:06:41) plot setup 
+\i (00:06:44) setwindow form.fpfileplotsetup
+\i (00:06:44) FORM fpfileplotsetup windows  
+\i (00:06:45) FORM fpfileplotsetup general  
+\i (00:07:15) setwindow pcb
+\i (00:07:15) plot setup 
+\i (00:07:17) setwindow form.fpfileplotsetup
+\i (00:07:17) FORM fpfileplotsetup cancel  
+\i (00:07:18) setwindow pcb
+\i (00:07:18) shapeedit 
+\i (00:07:20) plot 
+\w (00:07:20) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\i (00:07:33) plotwint initialize "PDFCreator"
+\i (00:07:33) plotwint execute
+\i (00:09:09) open 
+\i (00:09:18) fillin "F:\对外部分项目\信号发生器改版V1.0\Hardware\Pcb\DDS.brd"
+\i (00:09:18) cd "F:\对外部分项目\信号发生器改版V1.0\Hardware\Pcb"
+\t (00:09:18) Opening existing design...
+\i (00:09:18) trapsize 17870
+\t (00:09:18)     Journal end - Sat Jun 24 21:14:43 2017

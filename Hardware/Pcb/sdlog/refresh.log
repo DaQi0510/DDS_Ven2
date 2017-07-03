@@ -1,0 +1,63 @@
+Wed May 31 22:22:39 2017				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Wed May 31 22:22:39 2017
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : DDS.brd                                       )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Wed May 31 22:22:43 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed May 31 22:22:43 2017				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'F:/对外部分项目/信号发生器改版V2.0/Hardware/Pcb/DDS.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/DaQi/AppData/Local/Temp/#Taaaaab06876.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  F:/CADENCE LIB/cadence-lib-new/PSM/ 
+
+PADPATH =  F:/CADENCE LIB/cadence-lib-new/PAD/ 
+
+
+------ Symbol Refresh Messages ------
+
+'TFT_LCD_4_3'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+
