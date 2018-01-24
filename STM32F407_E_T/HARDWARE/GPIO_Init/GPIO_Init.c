@@ -243,7 +243,7 @@ void EXTI1_IRQHandler(void)
 		if(EXTI_GetITStatus(EXTI_Line1) != RESET)
 		{
 //			Delays();
-			if(B4==1)   
+			if(B4==0)   
 			{
 				if(Sine_Amp1>=500)
 					Sine_Amp1=500;
@@ -281,7 +281,7 @@ void EXTI2_IRQHandler(void)
 		if(EXTI_GetITStatus(EXTI_Line2) != RESET)
 		{
 //			Delays();	
-			if(B5==1)   
+			if(B5==0)   
 			{
 				if(Pulse>=200)
 					Pulse=200;
@@ -319,7 +319,7 @@ void EXTI3_IRQHandler(void)
 	if(PFin(3)==1)
 	{
 //		Delays();	
-		if(B6==1)
+		if(B6==0)
 		{
 			if(ADNum>=255)
 				ADNum=255;
@@ -358,7 +358,7 @@ void EXTI4_IRQHandler(void)
 		if(EXTI_GetITStatus(EXTI_Line4) != RESET)
 		{
 //			Delays();
-			if(B2==1)
+			if(B2==0)
 			{
 				if(Sine_Fre2>=500)
 					Sine_Fre2=500;
@@ -397,7 +397,7 @@ void EXTI9_5_IRQHandler(void)
 		if(EXTI_GetITStatus(EXTI_Line8) != RESET)
 		{
 //			Delays();
-			if(B3==1)
+			if(B3==0)
 			{
 				if(Sine_Amp2>=500)
 					Sine_Amp2=500;
@@ -435,7 +435,7 @@ void EXTI15_10_IRQHandler(void)
 		if(EXTI_GetITStatus(EXTI_Line11) != RESET)
 		{
 //			Delays();
-			if(B1==1)
+			if(B1==0)
 			{
 				if(Sine_Fre1>=500)
 					Sine_Fre1=500;
@@ -471,6 +471,8 @@ void Delays(void)    //延时消抖
 }
 void SetAD(u8 SetNum)  //完成模数转换
 {
+	if(SetNum>=242)
+		SetNum=242;
 	if(SetNum&1<<0)
 		AD1=1;     //对应输出高电平
 	else

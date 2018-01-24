@@ -185,24 +185,26 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\dds.dsn")
       (Path "Design Resources" ".\dds.dsn" "TOP")
+      (Path "Design Resources" ".\dds.dsn" "DDS")
       (Path "Design Resources" ".\dds.dsn" "MCU")
       (Path "Design Resources" ".\dds.dsn" "Module")
       (Path "Design Resources" ".\dds.dsn" "Power")
       (Path "Design Resources" ".\dds.dsn" "TFTLCD")
+      (Path "Design Resources" ".\dds.dsn" "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" ".\dds.dsn" "Power" "Power"))
+      (Select "Design Resources" ".\dds.dsn" "Module" "Module"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 520"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 930 50 410")
         (Scroll "0 0")
-        (Zoom "108")
+        (Zoom "132")
         (Occurrence "/MCU"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "MCU")
@@ -211,7 +213,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 955 75 435")
-        (Scroll "289 238")
+        (Scroll "113 715")
         (Zoom "174")
         (Occurrence "/DDS"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
@@ -220,9 +222,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 753 125 489")
-        (Scroll "2244 167")
-        (Zoom "340")
+        (Placement "44 2 3 -1 -1 -8 -30 125 753 125 489")
+        (Scroll "0 355")
+        (Zoom "140")
         (Occurrence "/Module"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Module")
@@ -235,8 +237,8 @@
         (Zoom "132"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 716 125 489")
-        (Scroll "373 218")
-        (Zoom "216")
+        (Scroll "36 214")
+        (Zoom "180")
         (Occurrence "/TFTLCD"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "TFTLCD")
@@ -245,8 +247,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 641 50 414")
-        (Scroll "571 153")
-        (Zoom "348")
+        (Scroll "3374 338")
+        (Zoom "528")
         (Occurrence "/Power"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "Power")
@@ -254,9 +256,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 890 25 393")
-        (Scroll "0 131")
-        (Zoom "108")
+        (Placement "44 0 1 -1 -1 -8 -30 -437 428 52 420")
+        (Scroll "-113 0")
+        (Zoom "61")
         (Occurrence "/"))
       (Path "F:\对外部分项目\信号发生器改版V2.0\HARDWARE\SCH\DDS.DSN")
       (Schematic "TOP")

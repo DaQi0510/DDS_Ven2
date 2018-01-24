@@ -27,13 +27,13 @@ void sin_Generation1(u16 Fre,u16 Vol)
 	{
 		sinTable[n] =Voltage-(n-500)*Voltage/499;	
 	}
-	for(n=0;n<973;n++)
+	for(n=0;n<998;n++)
 	{
-		sinTable1[n]=sinTable[n+27];
+		sinTable1[n]=sinTable[n+2];
 	}
-	for(n=0;n<27;n++)
+	for(n=0;n<2;n++)
 	{
-		sinTable1[n+973]=sinTable[n];
+		sinTable1[n+998]=sinTable[n];
 	}
 }
 void sin_Generation2(u16 Fre,u16 Vol)

@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Xu Microsoft, Microsoft, LIC=7YKY8-3Z2BX-LV11I-T3M75-S14VI-RNP5J
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+F:\对外部分项目\信号发生器改版V2.0\STM32F407_E_P\STM32F407.uvprojx
+Project File Date:  05/29/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+USER\main.c(53): warning:  #550-D: variable "i" was set but never used
+    u8 i;
+USER\main.c(120): warning:  #177-D: variable "Fres" was declared but never referenced
+  	u16 Fres;
+USER\main.c(278): warning:  #177-D: variable "Fres" was declared but never referenced
+    u16 Fres;
+USER\main.c: 3 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling sys.c...
+compiling delay.c...
+assembling startup_stm32f40_41xxx.s...
+compiling stm32f4xx_gpio.c...
+compiling misc.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_spi.c...
+compiling AT24C02.c...
+compiling DAC.c...
+HARDWARE\DAC\DAC.c(61): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+  	  NVIC_InitTypeDef NVIC_InitStructure;
+HARDWARE\DAC\DAC.c: 1 warning, 0 errors
+compiling LCD.c...
+HARDWARE\LCD\LCD.c(504): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	for(i=7;i>=0;i--)
+HARDWARE\LCD\LCD.c: 1 warning, 0 errors
+compiling GPIO_Init.c...
+HARDWARE\GPIO_Init\GPIO_Init.c(238): warning:  #177-D: variable "i" was declared but never referenced
+  	u8 i=0;
+HARDWARE\GPIO_Init\GPIO_Init.c(276): warning:  #177-D: variable "i" was declared but never referenced
+  	u8 i=0;
+HARDWARE\GPIO_Init\GPIO_Init.c(316): warning:  #177-D: variable "i" was declared but never referenced
+  	u8 i=0;
+HARDWARE\GPIO_Init\GPIO_Init.c(353): warning:  #177-D: variable "i" was declared but never referenced
+  	u8 i=0;
+HARDWARE\GPIO_Init\GPIO_Init.c(392): warning:  #177-D: variable "i" was declared but never referenced
+  	u8 i=0;
+HARDWARE\GPIO_Init\GPIO_Init.c(430): warning:  #177-D: variable "i" was declared but never referenced
+  	u8 i=0;
+HARDWARE\GPIO_Init\GPIO_Init.c: 6 warnings, 0 errors
+compiling bsp_tim_pwm.c...
+HARDWARE\PWM\bsp_tim_pwm.c(446): warning:  #177-D: variable "usPeriod" was declared but never referenced
+  	uint16_t usPeriod;
+HARDWARE\PWM\bsp_tim_pwm.c(447): warning:  #177-D: variable "usPrescaler" was declared but never referenced
+  	uint16_t usPrescaler;
+HARDWARE\PWM\bsp_tim_pwm.c(448): warning:  #177-D: variable "uiTIMxCLK" was declared but never referenced
+  	uint32_t uiTIMxCLK;
+HARDWARE\PWM\bsp_tim_pwm.c(538): warning:  #177-D: variable "usPeriod" was declared but never referenced
+  	uint16_t usPeriod;
+HARDWARE\PWM\bsp_tim_pwm.c(539): warning:  #177-D: variable "usPrescaler" was declared but never referenced
+  	uint16_t usPrescaler;
+HARDWARE\PWM\bsp_tim_pwm.c(540): warning:  #177-D: variable "uiTIMxCLK" was declared but never referenced
+  	uint32_t uiTIMxCLK;
+HARDWARE\PWM\bsp_tim_pwm.c: 6 warnings, 0 errors
+compiling TFT_LCD.c...
+.\HARDWARE\Logo\Logo.h(8694): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\TFT_LCD\TFT_LCD.c(11): warning:  #177-D: variable "i" was declared but never referenced
+    u8 i;	
+HARDWARE\TFT_LCD\TFT_LCD.c(19): warning:  #177-D: variable "i" was declared but never referenced
+  	u8 i;	
+HARDWARE\TFT_LCD\TFT_LCD.c(44): warning:  #177-D: variable "i" was declared but never referenced
+    u8 i;	
+HARDWARE\TFT_LCD\TFT_LCD.c(93): warning:  #177-D: variable "temp" was declared but never referenced
+  	u16 temp;  
+HARDWARE\TFT_LCD\TFT_LCD.c(219): warning:  #177-D: variable "hsareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+HARDWARE\TFT_LCD\TFT_LCD.c(219): warning:  #177-D: variable "heareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+HARDWARE\TFT_LCD\TFT_LCD.c(219): warning:  #177-D: variable "vsareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+HARDWARE\TFT_LCD\TFT_LCD.c(219): warning:  #177-D: variable "veareg" was declared but never referenced
+  	u8 hsareg,heareg,vsareg,veareg;
+HARDWARE\TFT_LCD\TFT_LCD.c(220): warning:  #177-D: variable "hsaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+HARDWARE\TFT_LCD\TFT_LCD.c(220): warning:  #177-D: variable "heaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+HARDWARE\TFT_LCD\TFT_LCD.c(220): warning:  #177-D: variable "vsaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+HARDWARE\TFT_LCD\TFT_LCD.c(220): warning:  #177-D: variable "veaval" was declared but never referenced
+  	u16 hsaval,heaval,vsaval,veaval; 
+HARDWARE\TFT_LCD\TFT_LCD.c(802): warning:  #177-D: variable "Colors" was declared but never referenced
+  	u16 Colors;
+HARDWARE\TFT_LCD\TFT_LCD.c(1129): warning:  #550-D: variable "Num" was set but never used
+  	u16 Num;
+HARDWARE\TFT_LCD\TFT_LCD.c(1166): warning:  #177-D: variable "AddressX" was declared but never referenced
+  	u16 AddressX=500,AddressY=248;
+HARDWARE\TFT_LCD\TFT_LCD.c(1166): warning:  #177-D: variable "AddressY" was declared but never referenced
+  	u16 AddressX=500,AddressY=248;
+HARDWARE\TFT_LCD\TFT_LCD.c(1193): warning:  #550-D: variable "Num" was set but never used
+  	u16 Num;
+HARDWARE\TFT_LCD\TFT_LCD.c: 18 warnings, 0 errors
+linking...
+Program Size: Code=22582 RO-data=142354 RW-data=60 ZI-data=7652  
+FromELF: creating hex file...
+".\Objects\STM32F407.axf" - 0 Error(s), 35 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\对外部分项目\信号发生器改版V2.0\STM32F407_E_P\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.8.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:31
+</pre>
+</body>
+</html>

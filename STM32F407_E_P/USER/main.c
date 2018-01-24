@@ -159,12 +159,12 @@ void StartInit(void)
 	Sine_Fre2<<=8;
 	Sine_Fre2+=AT24C02_ReadOneByte(0x0A);
 	LCD_ShowSine2(Sine_Amp2,Sine_Fre2);
-	Sine_Amp2t =Sine_Amp2;
-	Sine_Fre2t=Sine_Fre2;
-	sin_Generation2(Sine_Fre2t,Sine_Amp2);	
-	Sine_FreNum2 =42000/Sine_Fre2t-1;
-	TIM7_Configuration(Sine_FreNum2);
-	DAC_DMA_Configuration2(); 
+//	Sine_Amp2t =Sine_Amp2;
+//	Sine_Fre2t=Sine_Fre2;
+//	sin_Generation2(Sine_Fre2t,Sine_Amp2);	
+//	Sine_FreNum2 =42000/Sine_Fre2t-1;
+//	TIM7_Configuration(Sine_FreNum2);
+//	DAC_DMA_Configuration2(); 
 	//开关1控制部分
 	if(K1==1)   //开关闭合
 	{
@@ -179,7 +179,7 @@ void StartInit(void)
 	{
 		S18=1;
 		delay_ms(100);
-		TIM_SetCompare4(TIM3,450);
+		TIM_SetCompare4(TIM3,494);
 	}
 	else
 	{
@@ -221,15 +221,21 @@ void StartInit(void)
 	K3_Flagt=K3_Flag;
 	if(K3_Flagt==1)
 	{
-    DMA_Cmd(DMA1_Stream6, ENABLE);
-		DAC_Cmd(DAC_Channel_2, ENABLE);
-		DAC_DMACmd(DAC_Channel_2, ENABLE);
+    Sine_Amp2t =Sine_Amp2;
+		Sine_Fre2t=Sine_Fre2;
+		sin_Generation2(Sine_Fre2t,Sine_Amp2);	
+		Sine_FreNum2 =42000/Sine_Fre2t-1;
+		TIM7_Configuration(Sine_FreNum2);
+		DAC_DMA_Configuration2(); 
 	}
 	else
 	{
-    DMA_Cmd(DMA1_Stream6, DISABLE);
-		DAC_Cmd(DAC_Channel_2, DISABLE);
-		DAC_DMACmd(DAC_Channel_2, DISABLE);  
+    Sine_Amp2t =0;
+		Sine_Fre2t=Sine_Fre2;
+		sin_Generation2(Sine_Fre2t,Sine_Amp2);	
+		Sine_FreNum2 =42000/Sine_Fre2t-1;
+		TIM7_Configuration(Sine_FreNum2);
+		DAC_DMA_Configuration2();  
 	}
 	TFT_LCD_ShowModeValue(K3_Flagt);
 	LCD_ShowMode(K3_Flagt);
@@ -280,7 +286,7 @@ void Sine1_Scan(void)
 		TIM2_Configuration(Sine_FreNum1);
 		DAC_DMA_Configuration1(); 
 		if(K1_Flagt==1)
-			TIM_SetCompare4(TIM3,450);
+			TIM_SetCompare4(TIM3,494);
 		else
 			TIM_SetCompare4(TIM3,0);
 		TFT_LCD_ShowWidthValue(Sine_Amp1);
@@ -288,7 +294,7 @@ void Sine1_Scan(void)
 }
 void Sine2_Scan(void)
 {
-	if((Sine_Amp2t!=Sine_Amp2)||(Sine_Fre2t!=Sine_Fre2))
+	if(((Sine_Amp2t!=Sine_Amp2)||(Sine_Fre2t!=Sine_Fre2))&&(K3_Flag==1))
 	{
 		delay_ms(10);
 		Sine_Amp2t =Sine_Amp2;
@@ -368,15 +374,21 @@ void K3_Scan(void)
 		K3_Flagt=K3_Flag;
 		if(K3_Flagt==1)
 		{
-			DMA_Cmd(DMA1_Stream6, ENABLE);
-			DAC_Cmd(DAC_Channel_2, ENABLE);
-			DAC_DMACmd(DAC_Channel_2, ENABLE);
+			Sine_Amp2t =Sine_Amp2;
+			Sine_Fre2t=Sine_Fre2;
+			sin_Generation2(Sine_Fre2t,Sine_Amp2);	
+			Sine_FreNum2 =42000/Sine_Fre2t-1;
+			TIM7_Configuration(Sine_FreNum2);
+			DAC_DMA_Configuration2(); 
 		}
 		if(K3_Flagt==0)
 		{
-			DMA_Cmd(DMA1_Stream6, DISABLE);
-			DAC_Cmd(DAC_Channel_2, DISABLE);
-			DAC_DMACmd(DAC_Channel_2, DISABLE); 
+			Sine_Amp2t =0;
+			Sine_Fre2t=Sine_Fre2;
+			sin_Generation2(Sine_Fre2t,Sine_Amp2);	
+			Sine_FreNum2 =42000/Sine_Fre2t-1;
+			TIM7_Configuration(Sine_FreNum2);
+			DAC_DMA_Configuration2(); 
 		}
 		LCD_ShowMode(K3_Flagt);
 		TFT_LCD_ShowModeValue(K3_Flagt);
