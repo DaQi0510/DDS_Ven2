@@ -131,8 +131,8 @@ void StartInit(void)
 	Pulse<<=8;
 	Pulse+=AT24C02_ReadOneByte(0x02);
 	Pulset = Pulse;
-	PulseNum=168000/Pulset-1;
-	bsp_SetTIMOutPWM(GPIOA, GPIO_Pin_9, TIM1, 2, PulseNum, 5000);  
+//	PulseNum=168000/Pulset-1;
+//	bsp_SetTIMOutPWM(GPIOA, GPIO_Pin_9, TIM1, 2, PulseNum, 5000);  
 	TFT_LCD_ShowPulseValue(Pulse);
 	LCD_ShowPulse(Pulse);
 
@@ -177,15 +177,22 @@ void StartInit(void)
 	K1_Flagt=K1_Flag;
 	if(K1_Flagt==1)
 	{
-		S18=1;
-		delay_ms(100);
-		S19=1;
+		delay_ms(10);
+		Pulset =Pulse;
+		PulseNum=168000/Pulset-1;
+		bsp_SetTIMOutPWM(GPIOA, GPIO_Pin_9, TIM1, 2, PulseNum, 5000);  
+//		S18=1;
+//		delay_ms(100);
+//		S19=1;
 	}
 	else
 	{
-		
-		S18=0;
-		S19=0;
+		delay_ms(10);
+		TIM_DeInit(TIM1);
+		bsp_ConfigGpioOut(GPIOA, GPIO_Pin_9);
+		PAout(9)=0;
+//		S18=0;
+//		S19=0;
 	}
 	LCD_ShowLaser(K1_Flagt);
 	TFT_LCD_ShowLaserValue(K1_Flagt);
@@ -258,7 +265,7 @@ void AD_Scan(void)
 }
 void Pulse_Scan(void)
 {
-	if(Pulset!=Pulse)
+	if((Pulset!=Pulse)&&(K1_Flag==1))
 	{
 		delay_ms(10);
 		Pulset =Pulse;
@@ -310,14 +317,17 @@ void K1_Scan(void)
 		K1_Flagt=K1_Flag;
 		if(K1_Flagt==1)
 		{
-			S18=1;
-			delay_ms(100);
-		  S19=1;
+			delay_ms(10);
+			Pulset =Pulse;
+			PulseNum=168000/Pulset-1;
+			bsp_SetTIMOutPWM(GPIOA, GPIO_Pin_9, TIM1, 2, PulseNum, 5000);  
 		}
 		else
 		{
-			S18=0;
-			S19=0;
+			delay_ms(10);
+			TIM_DeInit(TIM1);
+			bsp_ConfigGpioOut(GPIOA, GPIO_Pin_9);
+			PAout(9)=0;
 		}
 		TFT_LCD_ShowLaserValue(K1_Flagt);
 		LCD_ShowLaser(K1_Flagt);
