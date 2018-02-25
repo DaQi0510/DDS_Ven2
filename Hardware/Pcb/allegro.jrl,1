@@ -1,0 +1,81 @@
+\t (00:05:36) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:05:36)     Journal start - Sat Jan 20 10:28:26 2018
+\t (00:05:36)         Host=DAQI-PC User=DaQi Pid=5920 CPUs=4
+\t (00:05:36) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:05:36) 
+\d (00:05:36) Design opened: F:/对外部分项目/信号发生器改版V2.0_485/Hardware/Pcb/DDS.brd
+\i (00:05:36) generaledit 
+\i (00:05:37) zoom out 1 
+\i (00:05:37) setwindow pcb
+\i (00:05:37) zoom out 1541.842 1912.944
+\i (00:05:37) trapsize 5975
+\i (00:05:37) zoom out 1 
+\i (00:05:37) setwindow pcb
+\i (00:05:37) zoom out 1541.843 1912.943
+\i (00:05:37) trapsize 11950
+\i (00:05:37) zoom out 1 
+\i (00:05:37) setwindow pcb
+\i (00:05:37) zoom out 1541.842 1912.944
+\i (00:05:37) trapsize 23901
+\i (00:05:40) zoom in 1 
+\i (00:05:40) setwindow pcb
+\i (00:05:40) zoom in 866.149 1286.739
+\i (00:05:40) trapsize 11950
+\i (00:05:41) zoom in 1 
+\i (00:05:41) setwindow pcb
+\i (00:05:41) zoom in 940.242 1341.712
+\i (00:05:41) trapsize 5975
+\i (00:05:41) zoom in 1 
+\i (00:05:41) setwindow pcb
+\i (00:05:41) zoom in 941.438 1342.907
+\i (00:05:41) trapsize 2988
+\i (00:05:41) zoom in 1 
+\i (00:05:41) setwindow pcb
+\i (00:05:41) zoom in 1054.968 1423.573
+\i (00:05:41) trapsize 1494
+\i (00:05:43) zoom out 1 
+\i (00:05:43) setwindow pcb
+\i (00:05:43) zoom out 1060.047 1416.403
+\i (00:05:43) trapsize 2988
+\i (00:05:46) zoom out 1 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) zoom out 1060.046 1416.403
+\i (00:05:46) trapsize 5975
+\i (00:05:47) zoom in 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom in 1032.559 1252.681
+\i (00:05:47) trapsize 2988
+\i (00:05:47) zoom in 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom in 1032.560 1252.681
+\i (00:05:47) trapsize 1494
+\i (00:05:48) zoom out 1 
+\i (00:05:48) setwindow pcb
+\i (00:05:48) zoom out 1032.560 1252.681
+\i (00:05:48) trapsize 2988
+\i (00:05:49) zoom in 1 
+\i (00:05:49) setwindow pcb
+\i (00:05:49) zoom in 1022.999 1400.868
+\i (00:05:49) trapsize 1494
+\i (00:05:50) zoom out 1 
+\i (00:05:50) setwindow pcb
+\i (00:05:50) zoom out 1049.888 1352.170
+\i (00:05:50) trapsize 2988
+\i (00:17:32) pick grid 1049.289 1351.573
+\t (00:17:32) last pick:  1049.000 1352.000
+\i (00:17:32) pick grid dbl 1049.289 1351.573
+\t (00:17:32) last pick:  1049.000 1352.000
+\i (00:17:32) pick grid 1049.289 1351.573
+\t (00:17:32) last pick:  1049.000 1352.000
+\i (00:17:32) pick grid dbl 1049.289 1351.573
+\t (00:17:32) last pick:  1049.000 1352.000
+\i (00:17:33) pick grid 1049.289 1351.573
+\t (00:17:33) last pick:  1049.000 1352.000
+\i (00:17:33) pick grid dbl 1049.289 1351.573
+\t (00:17:33) last pick:  1049.000 1352.000
+\i (00:17:33) pick grid 1049.289 1351.573
+\t (00:17:33) last pick:  1049.000 1352.000
+\i (00:17:33) pick grid dbl 1049.289 1351.573
+\t (00:17:33) last pick:  1049.000 1352.000
+\i (06:07:32) exit 
+\t (06:07:34)     Journal end - Sat Jan 20 16:30:24 2018

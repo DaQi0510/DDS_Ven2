@@ -1,0 +1,506 @@
+\t (00:00:01) allegro 16.6-2015 S066 (v16-6-112FJ) Windows 32
+\t (00:00:01)     Journal start - Sat Feb 24 22:11:12 2018
+\t (00:00:01)         Host=DAQI-PC User=DaQi Pid=12592 CPUs=4
+\t (00:00:01) CmdLine= D:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: F:/对外部分项目/信号发生器改版V2.0_485/Hardware/Pcb/DDS.brd
+\i (00:00:04) trapsize 53957
+\i (00:00:04) trapsize 52987
+\i (00:00:04) trapsize 54122
+\i (00:00:09) trapsize 47803
+\i (00:00:09) trapsize 47803
+\i (00:00:10) generaledit 
+\i (00:00:15) ncdrill legend 
+   (00:00:15) Loading mfg.cxt 
+\i (00:00:20) setwindow form.nc_drilllegend
+\i (00:00:20) FORM nc_drilllegend done  
+\i (00:00:23) setwindow pcb
+\i (00:00:23) pick grid 87.024 5269.770
+\t (00:00:23) last pick:  87.000 5270.000
+\t (00:00:23) NC Drill Legend generation successful
+\i (00:00:23) generaledit 
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 2410.249 3654.029
+\i (00:00:24) trapsize 23901
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 4365.392 3644.469
+\i (00:00:25) trapsize 47803
+\i (00:00:32) ncdrill legend 
+\i (00:00:34) setwindow form.nc_drilllegend
+\i (00:00:34) FORM nc_drilllegend done  
+\i (00:00:36) setwindow pcb
+\i (00:00:36) pick grid 287.797 5728.679
+\t (00:00:36) last pick:  288.000 5729.000
+\t (00:00:36) NC Drill Legend generation successful
+\i (00:00:36) generaledit 
+\i (00:00:43) nctape_full 
+\i (00:00:45) setwindow form.nc_drill
+\i (00:00:45) FORM nc_drill cancel  
+\i (00:00:45) setwindow pcb
+\i (00:00:45) generaledit 
+\i (00:00:49) ncdrill legend 
+\i (00:00:51) setwindow form.nc_drilllegend
+\i (00:00:51) FORM nc_drilllegend done  
+\i (00:00:54) setwindow pcb
+\i (00:00:54) pick grid 5259.307 2707.530
+\t (00:00:54) last pick:  5259.000 2708.000
+\t (00:00:54) NC Drill Legend generation successful
+\i (00:00:54) generaledit 
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 2763.991 2449.394
+\i (00:00:55) trapsize 23901
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 5550.906 2449.395
+\i (00:00:56) trapsize 47803
+\i (00:01:05) zoom in 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom in 1062.205 3376.772
+\i (00:01:05) trapsize 23901
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 631.979 3515.401
+\i (00:01:06) trapsize 11951
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 968.990 3469.989
+\i (00:01:07) trapsize 23901
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out 1968.072 3575.155
+\i (00:01:12) trapsize 47803
+\i (00:01:18) nctape_full 
+\i (00:01:19) setwindow form.nc_drill
+\i (00:01:19) FORM nc_drill optimize YES 
+\i (00:01:21) FORM nc_drill parameters  
+\i (00:01:23) setwindow form.nc_parameters
+\i (00:01:23) FORM nc_parameters done  
+\i (00:01:27) setwindow form.nc_drill
+\i (00:01:27) FORM nc_drill parameters  
+\i (00:01:29) setwindow form.nc_parameters
+\i (00:01:29) FORM nc_parameters done  
+\i (00:01:31) setwindow form.nc_drill
+\i (00:01:31) FORM nc_drill execute  
+\t (00:01:31) Starting Generating NC Drill...
+\i (00:01:42) FORM nc_drill cancel  
+\i (00:01:42) setwindow pcb
+\i (00:01:42) generaledit 
+\i (00:01:44) artwork 
+\i (00:01:46) setwindow form.film_control
+\i (00:01:46) FORM film_control general_parameters  
+\i (00:01:48) FORM film_control film_control  
+\i (00:01:50) FORM film_control general_parameters  
+\i (00:01:51) FORM film_control film_control  
+\i (00:01:53) FORM film_control select_all  
+\i (00:01:55) FORM film_control create  
+\t (00:01:55) Checking db records
+\t (00:01:55)     checking for orphans...
+\t (00:01:55)     Checked  22 percent
+\t (00:01:55)     Checked  44 percent
+\t (00:01:55)     Checked  66 percent
+\t (00:01:55)     Checked  89 percent
+\t (00:01:55)     Checked 100 percent
+\w (00:01:56) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:56) Done dbdoctor.
+\e (00:01:56) Database has errors; artwork generation canceled.  Please run dbdoctor.
+\i (00:02:03) fillin confirm
+\i (00:02:05) FORM film_control cancel  
+\i (00:02:05) setwindow pcb
+\i (00:02:05) generaledit 
+\i (00:02:11) dbdoctor 
+\i (00:02:12) setwindow form.dbdoctor_allegro
+\i (00:02:12) FORM dbdoctor_allegro execute  
+\t (00:02:12) Dbdoctor in progress - wait...
+\t (00:02:12) Checking db records
+\t (00:02:12)     checking for orphans...
+\t (00:02:12)     Checked  22 percent
+\t (00:02:12)     Checked  44 percent
+\t (00:02:12)     Checked  66 percent
+\t (00:02:12)     Checked  88 percent
+\t (00:02:12)     Checked 100 percent
+\w (00:02:12) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:02:13) Done dbdoctor.
+\t (00:02:13) Checking db records
+\t (00:02:13)     checking for orphans...
+\t (00:02:13)     Checked  22 percent
+\t (00:02:13)     Checked  44 percent
+\t (00:02:13)     Checked  66 percent
+\t (00:02:13)     Checked  88 percent
+\t (00:02:13)     Checked 100 percent
+\w (00:02:13) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:02:13) Done dbdoctor.
+\t (00:02:13) Dbdoctor completed.
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom center 
+\t (00:02:21) Pick center for the new display.
+\i (00:02:21) pick 3215.886 1243.424 
+\t (00:02:21) last pick:  3215.886 1243.424
+\i (00:02:22) trapsize 47803
+\i (00:02:23) setwindow text
+\i (00:02:23) close 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom in 1 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom in 4857.762 775.387
+\i (00:02:24) trapsize 23901
+\i (00:02:24) zoom in 1 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom in 4790.838 746.706
+\i (00:02:24) trapsize 11951
+\i (00:02:24) zoom in 1 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom in 4790.838 746.706
+\i (00:02:24) trapsize 5975
+\i (00:02:24) zoom in 1 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom in 4790.838 746.706
+\i (00:02:24) trapsize 2988
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 4952.173 801.082
+\i (00:02:25) trapsize 5975
+\i (00:02:28) zoom out 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom out 4831.471 915.809
+\i (00:02:28) trapsize 11951
+\i (00:02:28) zoom out 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom out 4831.471 915.809
+\i (00:02:28) trapsize 23901
+\i (00:02:30) setwindow form.dbdoctor_allegro
+\i (00:02:30) FORM dbdoctor_allegro close  
+\i (00:02:30) setwindow pcb
+\i (00:02:30) generaledit 
+\i (00:02:30) zoom in 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom in 4587.675 992.293
+\i (00:02:30) trapsize 11951
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 4759.766 932.539
+\i (00:02:31) trapsize 5975
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in 4901.980 1146.458
+\i (00:02:32) trapsize 2988
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out 4971.892 1110.606
+\i (00:02:33) trapsize 5975
+\i (00:02:34) zoom out 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom out 4971.892 1110.605
+\i (00:02:34) trapsize 11951
+\i (00:02:41) cmgr 
+\i (00:02:43) setwindow cmgr
+\i (00:02:43) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:02:44) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:02:45) setwindow pcb
+\i (00:02:45) generaledit 
+\i (00:02:49) setwindow cmgr
+\i (00:02:49) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:02:49) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:02:49) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:02:49) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:02:49) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:02:52) cm select ( frame ( workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:02:52) cm select tab 167:All
+\i (00:03:26) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 167:All )
+\i (00:03:28) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 167:All )
+\i (00:03:28) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 167:All )
+\i (00:03:30) cm newView ( worksheet 144:Properties 14:Net "67:Electrical Properties" "73:Electrical Properties" )
+\i (00:03:31) cm newView ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:03:32) cm newView ( worksheet 144:Properties 14:Net "219:Ratsnest Bundle Properties" "220:Ratsnest Bundle Properties" )
+\i (00:03:34) cm newView ( worksheet 144:Properties 38:Component "39:Component Properties" 40:General )
+\i (00:03:36) cm newView ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:38) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:38) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:38) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:40) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:40) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:40) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:40) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:40) cm select ( worksheet 144:Properties 38:Component "41:Pin Properties" 42:General )
+\i (00:03:46) cm select tab 167:All
+\i (00:04:17) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (00:04:20) cm newView ( worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" 113:Line )
+\i (00:04:22) cm select ( worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" 113:Line )
+\i (00:04:23) cm newView ( worksheet 78:Spacing 126:Region "127:All Layers" 134:Shape )
+\i (00:04:29) cm select ( worksheet 78:Spacing 126:Region "127:All Layers" 134:Shape )
+\i (00:04:29) cm select ( worksheet 78:Spacing 126:Region "127:All Layers" 134:Shape )
+\i (00:04:29) cm select ( worksheet 78:Spacing 126:Region "127:All Layers" 134:Shape )
+\i (00:04:30) cm select ( frame ( workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:04:36) cm newView ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:04:39) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:04:39) cm select ( worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:04:41) cm select ( frame ( workbook 144:Properties 38:Component "39:Component Properties" ) )
+\i (00:04:50) cm select ( worksheet 144:Properties 38:Component "39:Component Properties" 40:General )
+\i (00:04:52) cm newView ( worksheet 145:DRC 43:DRC 44:Electrical 45:Electrical )
+\i (00:04:54) cm newView ( worksheet 145:DRC 43:DRC 49:Physical 50:Physical )
+\i (00:04:54) cm newView ( worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:04:55) cm newView ( worksheet 145:DRC 43:DRC "235:Same Net Spacing" "236:Same Net Spacing" )
+\i (00:04:55) cm newView ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:04:58) cm scope Design "DDS"
+\i (00:04:58) cm expand ( row ( "Design DRC Group" "Package to Package Spacing" ) )
+\i (00:05:14) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:14) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:14) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:14) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:14) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:14) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:54) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:54) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:54) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:54) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:54) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:05:54) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:06:13) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:06:13) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:06:13) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:06:13) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:06:13) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:06:13) cm select ( worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:06:14) cm select ( frame ( workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:06:25) cm select tab "86:BB Via Gap"
+\i (00:06:26) cm select tab 221:Hole
+\i (00:06:29) cm select tab "85:Bond Finger"
+\i (00:06:30) cm select tab 84:Shape
+\i (00:06:32) cm select tab 83:Vias
+\i (00:06:33) cm select tab 82:Pins
+\i (00:06:35) cm select tab 81:Line
+\i (00:07:33) setwindow pcb
+\i (00:07:33) dbdoctor 
+\i (00:07:39) setwindow form.dbdoctor_allegro
+\i (00:07:39) FORM dbdoctor_allegro drc YES 
+\i (00:07:41) FORM dbdoctor_allegro execute  
+\t (00:07:41) Dbdoctor in progress - wait...
+\t (00:07:47) Checking db records
+\t (00:07:47)     checking for orphans...
+\t (00:07:48)     Checked  22 percent
+\t (00:07:48)     Checked  44 percent
+\t (00:07:48)     Checked  66 percent
+\t (00:07:48)     Checked  88 percent
+\t (00:07:48)     Checked 100 percent
+\t (00:07:48) Regenerating DRC
+\t (00:07:48)   Original DRC errors: 1
+\t (00:07:48) Performing DRC...
+\t (00:07:48) Multithreaded DRC update (4 threads).
+\t (00:07:49) DRC done; 1 errors detected.
+\t (00:07:49)   Updated DRC errors:  1
+\t (00:07:49) Done dbdoctor.
+\t (00:07:49) Dbdoctor completed.
+\i (00:07:52) FORM dbdoctor_allegro execute  
+\t (00:07:52) Dbdoctor in progress - wait...
+\t (00:07:52) Checking db records
+\t (00:07:52)     checking for orphans...
+\t (00:07:52)     Checked  22 percent
+\t (00:07:52)     Checked  44 percent
+\t (00:07:52)     Checked  66 percent
+\t (00:07:52)     Checked  88 percent
+\t (00:07:52)     Checked 100 percent
+\t (00:07:52) Regenerating DRC
+\t (00:07:52)   Original DRC errors: 1
+\t (00:07:52) Performing DRC...
+\t (00:07:52) Multithreaded DRC update (4 threads).
+\t (00:07:53) DRC done; 1 errors detected.
+\t (00:07:53)   Updated DRC errors:  1
+\t (00:07:53) Done dbdoctor.
+\t (00:07:53) Dbdoctor completed.
+\i (00:07:56) FORM dbdoctor_allegro close  
+\i (00:07:56) setwindow pcb
+\i (00:07:56) generaledit 
+\i (00:07:57) zoom out 1 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom out 4842.824 852.469
+\i (00:07:57) trapsize 23901
+\i (00:08:01) artwork 
+\i (00:08:03) setwindow form.film_control
+\i (00:08:03) FORM film_control general_parameters  
+\i (00:08:04) FORM film_control film_control  
+\i (00:08:05) FORM film_control general_parameters  
+\i (00:08:06) FORM film_control film_control  
+\i (00:08:10) FORM film_control select_all  
+\i (00:08:12) FORM film_control create  
+\t (00:08:12) Checking db records
+\t (00:08:12)     checking for orphans...
+\t (00:08:12)     Checked  22 percent
+\t (00:08:12)     Checked  44 percent
+\t (00:08:12)     Checked  66 percent
+\t (00:08:12)     Checked  88 percent
+\t (00:08:12)     Checked 100 percent
+\t (00:08:12) Done dbdoctor.
+\t (00:08:12) Starting Create artwork films...
+\w (00:08:15) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:08:16) Artwork generated with warnings.
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom out 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom out 4293.090 465.265
+\i (00:08:17) trapsize 47803
+\i (00:08:17) zoom out 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom out 7171.426 1750.568
+\i (00:08:17) trapsize 95606
+\i (00:08:17) zoom out 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom out 16311.358 5469.640
+\i (00:08:17) trapsize 191212
+\i (00:08:17) zoom out 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom out 34514.734 12831.300
+\i (00:08:17) trapsize 325858
+\i (00:08:18) zoom in 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom in 43325.729 12173.724
+\i (00:08:18) trapsize 162929
+\i (00:08:18) zoom in 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom in 20483.098 12075.967
+\i (00:08:18) trapsize 81464
+\i (00:08:18) zoom in 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom in 10627.808 12092.260
+\i (00:08:18) trapsize 40732
+\i (00:08:18) zoom in 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom in 10627.808 12092.261
+\i (00:08:18) trapsize 20366
+\i (00:08:19) zoom in 1 
+\i (00:08:19) setwindow pcb
+\i (00:08:19) zoom in 10701.126 12132.993
+\i (00:08:19) trapsize 10183
+\i (00:08:19) zoom in 1 
+\i (00:08:19) setwindow pcb
+\i (00:08:19) zoom in 10699.089 12132.994
+\i (00:08:19) trapsize 5092
+\i (00:08:28) setwindow text
+\i (00:08:28) close 
+\i (00:08:29) setwindow form.film_control
+\i (00:08:29) FORM film_control cancel  
+\i (00:08:29) setwindow pcb
+\i (00:08:29) generaledit 
+\i (00:08:29) zoom in 1 
+\i (00:08:29) setwindow pcb
+\i (00:08:29) zoom in 10130.875 12036.255
+\i (00:08:29) trapsize 2546
+\i (00:08:29) zoom in 1 
+\i (00:08:29) setwindow pcb
+\i (00:08:29) zoom in 10129.856 12035.746
+\i (00:08:29) trapsize 1273
+\i (00:08:29) zoom in 1 
+\i (00:08:29) setwindow pcb
+\i (00:08:29) zoom in 10129.857 12035.746
+\i (00:08:29) trapsize 636
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 10180.517 12072.151
+\i (00:08:30) trapsize 1273
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 10186.373 12074.951
+\i (00:08:30) trapsize 2546
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 10194.519 12078.515
+\i (00:08:30) trapsize 5092
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 10213.867 12084.625
+\i (00:08:30) trapsize 10183
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 10234.233 12090.735
+\i (00:08:30) trapsize 20366
+\i (00:08:30) pick grid 9126.311 11141.670
+\t (00:08:30) last pick:  9126.000 11142.000
+\i (00:08:31) zoom out 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom out 9203.703 11162.036
+\i (00:08:31) trapsize 40732
+\i (00:08:31) zoom out 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom out 9203.703 11162.036
+\i (00:08:31) trapsize 81465
+\i (00:08:31) zoom out 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom out 5267.348 11162.037
+\i (00:08:31) trapsize 162930
+\i (00:08:31) zoom out 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom out 9795.010 11162.036
+\i (00:08:31) trapsize 325858
+\i (00:08:31) zoom in 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom in 1876.618 -1447.132
+\i (00:08:31) trapsize 162929
+\i (00:08:32) zoom in 1 
+\i (00:08:32) setwindow pcb
+\i (00:08:32) zoom in -45.943 -1447.132
+\i (00:08:32) trapsize 81464
+\i (00:08:32) zoom in 1 
+\i (00:08:32) setwindow pcb
+\i (00:08:32) zoom in -45.943 -1447.132
+\i (00:08:32) trapsize 40732
+\i (00:08:32) zoom in 1 
+\i (00:08:32) setwindow pcb
+\i (00:08:32) zoom in -29.650 -1430.839
+\i (00:08:32) trapsize 20366
+\i (00:08:32) zoom in 1 
+\i (00:08:32) setwindow pcb
+\i (00:08:32) zoom in -5.211 -1377.887
+\i (00:08:32) trapsize 10183
+\i (00:08:33) zoom out 1 
+\i (00:08:33) setwindow pcb
+\i (00:08:33) zoom out 750.371 -1170.153
+\i (00:08:33) trapsize 20366
+\i (00:08:33) zoom out 1 
+\i (00:08:33) setwindow pcb
+\i (00:08:33) zoom out 762.591 -1170.152
+\i (00:08:33) trapsize 40732
+\i (00:08:34) zoom in 1 
+\i (00:08:34) setwindow pcb
+\i (00:08:34) zoom in 956.071 589.481
+\i (00:08:34) trapsize 20366
+\i (00:09:46) pick grid 4984.490 1436.712
+\t (00:09:46) last pick:  4984.000 1437.000
+\i (00:09:46) zoom out 1 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) zoom out 4935.611 1400.053
+\i (00:09:46) trapsize 40732
+\i (00:09:46) zoom out 1 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) zoom out 8890.711 2194.331
+\i (00:09:46) trapsize 81464
+\i (00:09:47) zoom in 1 
+\i (00:09:47) setwindow pcb
+\i (00:09:47) zoom in 361.380 882.753
+\i (00:09:47) trapsize 40732
+\i (00:09:47) zoom in 1 
+\i (00:09:47) setwindow pcb
+\i (00:09:47) zoom in 182.158 817.582
+\i (00:09:47) trapsize 20366
+\i (00:09:48) zoom in 1 
+\i (00:09:48) setwindow pcb
+\i (00:09:48) zoom in 231.037 878.681
+\i (00:09:48) trapsize 10183
+\i (00:09:48) zoom out 1 
+\i (00:09:48) setwindow pcb
+\i (00:09:48) zoom out 1306.368 1717.765
+\i (00:09:48) trapsize 20366
+\i (00:09:48) zoom out 1 
+\i (00:09:48) setwindow pcb
+\i (00:09:48) zoom out 1681.106 1709.619
+\i (00:09:48) trapsize 40732
+\i (00:09:50) exit 
+\e (00:09:50) Do you want to save the changes you made to DDS.brd?
+\i (00:09:51) fillin yes 
+   (00:09:51) Loading signal.cxt 
+\t (00:09:53)     Journal end - Sat Feb 24 22:21:04 2018

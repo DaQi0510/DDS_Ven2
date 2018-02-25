@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Jun-01-2017 at 15:31:30 }
+{ Using PSTWRITER 16.6.0 d001Feb-24-2018 at 19:13:10 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='DDS';
@@ -848,6 +848,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ C89 'CAP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS233532@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins233532@mylibrary.\cap.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins233532@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  C9 'CAP_0603_1NF':;
 
 SECTION_NUMBER 1
@@ -894,6 +904,16 @@ SECTION_NUMBER 1
  '@DDS.TOP(SCH_1):POWER@DDS.POWER(SCH_1):INS201346@MYLIBRARY.HEADER3.NORMAL(CHIPS)':
  C_PATH='@dds.top(sch_1):power@dds.power(sch_1):ins201346@mylibrary.\header3.normal\(chips)',
  P_PATH='@dds.top(sch_1):page1_power@dds.power(sch_1):page5_ins201346@mylibrary.\header3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H12 'HEADER2_DUANZI-2P-508_HEADER2':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS233556@MYLIBRARY.HEADER2.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins233556@mylibrary.\header2.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins233556@mylibrary.\header2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1638,6 +1658,36 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R61 'RES_0603_360R':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS233462@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins233462@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins233462@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R62 'RES_0603_360R':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS233446@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins233446@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins233446@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R63 'RES_0603_120R':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS233414@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins233414@mylibrary.\res.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins233414@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  R7 'RES_0603_50R':;
 
 SECTION_NUMBER 1
@@ -1681,9 +1731,9 @@ PART_NAME
  U10 'TFTLCD_4_3_TFT_LCD_4_3_TFTLCD_4':;
 
 SECTION_NUMBER 1
- '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS78@MYLIBRARY.TFTLCD_4_3.NORMAL(CHIPS)':
- C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins78@mylibrary.\tftlcd_4_3.normal\(chips)',
- P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins78@mylibrary.\tftlcd_4_3.normal\(chips)',
+ '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS230008@MYLIBRARY.TFTLCD_4_3.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins230008@mylibrary.\tftlcd_4_3.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins230008@mylibrary.\tftlcd_4_3.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1758,7 +1808,17 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U2 'AD8622_LM334SM-SOP8_OPA2350':;
+ U18 'MAX3485ESA_LM334SM-SOP8_MAX3485':;
+
+SECTION_NUMBER 1
+ '@DDS.TOP(SCH_1):TFTLCD@DDS.TFTLCD(SCH_1):INS233340@MYLIBRARY.MAX3485ESA.NORMAL(CHIPS)':
+ C_PATH='@dds.top(sch_1):tftlcd@dds.tftlcd(sch_1):ins233340@mylibrary.\max3485esa.normal\(chips)',
+ P_PATH='@dds.top(sch_1):page1_tftlcd@dds.tftlcd(sch_1):page6_ins233340@mylibrary.\max3485esa.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'AD8622_LM334SM-SOP8_AD8622':;
 
 SECTION_NUMBER 1
  '@DDS.TOP(SCH_1):DDS@DDS.DDS(SCH_1):INS193492@MYLIBRARY.AD8622.NORMAL(CHIPS)':

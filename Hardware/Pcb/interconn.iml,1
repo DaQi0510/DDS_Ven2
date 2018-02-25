@@ -1,2 +1,167 @@
 ("interconn.iml" 
+ (Trace 
+  (STL_0S_1R_5 
+   (IDL ".subckt STL_0S_1R_5
++X1793792Y1048796L3A90
++0
++X1793792Y1212358L3
++0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*Trapezoidal_Angle_in_Degree = 90
+*CutoffFrequency = 0
+
+.layerstack Layerstack1
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 3.048e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0 0.000254 3.048e-005 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/DaQi/AppData/Local/Temp/#Taaaaak05560.in 0.00127 
+.rlgc RLGCSTL_0S_1R_5 ( Length=length N=1 )
+.C 0
++ 4.118100e-011 
+.L 0
++ 4.700900e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 2.167600e+000 
+.C INF
++ 4.118100e-011 
+.L INF
++ 4.700900e-007 
+.Td INF
++ 4.399900e-009 
+.Yc INF
++ 9.359600e-003 
+.Zc INF
++ 1.068400e+002 
+
+.endrlgc RLGCSTL_0S_1R_5
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  4.399900e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 9.359600e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.068400e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.812100e-001 
+.ends STL_0S_1R_5
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_0S_1R_5
+FREQUENCY=0
+CMATRIX
+ 4.118100e-011
+LMATRIX
+ 4.700900e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 2.167600e+000
+FREQUENCY=INF
+CMATRIX
+ 4.118100e-011
+LMATRIX
+ 4.700900e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_0S_1R_6 
+   (IDL ".subckt STL_0S_1R_6
++X1793792Y1048796L1A135
++0
++X1779929Y1062666L1
++0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*Trapezoidal_Angle_in_Degree = 90
+*CutoffFrequency = 0
+
+.layerstack Layerstack1
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 3.048e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.00023368 0.000254 0.00026416 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/DaQi/AppData/Local/Temp/#Taaaaal05560.in 0.00127 
+.rlgc RLGCSTL_0S_1R_6 ( Length=length N=1 )
+.C 0
++ 4.022500e-011 
+.L 0
++ 4.658600e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 2.167600e+000 
+.C INF
++ 4.022500e-011 
+.L INF
++ 4.658600e-007 
+.Td INF
++ 4.328900e-009 
+.Yc INF
++ 9.292200e-003 
+.Zc INF
++ 1.076200e+002 
+
+.endrlgc RLGCSTL_0S_1R_6
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  4.328900e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 9.292200e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.076200e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.827700e-001 
+.ends STL_0S_1R_6
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_0S_1R_6
+FREQUENCY=0
+CMATRIX
+ 4.022500e-011
+LMATRIX
+ 4.658600e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 2.167600e+000
+FREQUENCY=INF
+CMATRIX
+ 4.022500e-011
+LMATRIX
+ 4.658600e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) ) 
  (LibraryVersion 136.2 ) ) 

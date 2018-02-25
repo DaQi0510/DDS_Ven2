@@ -1,0 +1,63 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : DDS.brd                                       )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sat Feb 24 22:12:45 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (inch)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-360): Design precision is greater than that of the drill output file data.
+ WARNING(SPMHMF-361): Data rounding errors are very possible.
+
+
+Drill files being output to directory 'F:/对外部分项目/信号发生器改版V2.0_485/Hardware/Pcb/ads_sdart' ...
+
+
+
+     'DDS-1-2.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  12.0000    0.0000/  0.0000      PLATED        342
+            2.  18.0000    0.0000/  0.0000      PLATED         15
+            3.  35.4330    0.0000/  0.0000      PLATED         49
+            4.  39.3700    0.0000/  0.0000      PLATED          6
+            5.  47.2440    0.0000/  0.0000      PLATED         50
+            6.  59.0550    0.0000/  0.0000      PLATED         22
+            7. 125.9840    0.0000/  0.0000      PLATED          4
+            8. 157.4800    0.0000/  0.0000      PLATED          4
+
+     ---- Total holes:                                        492
+
+     ---- Total head travel:              10.05 feet (3.06 meters)
+

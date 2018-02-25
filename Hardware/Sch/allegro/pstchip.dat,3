@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001May-20-2017 at 21:48:23}
+{ Using PSTWRITER 16.6.0 d001Sep-04-2017 at 20:46:33}
 primitive 'CAP_0603_0.1UF';
   pin
     '1':
@@ -498,6 +498,36 @@ primitive 'RES_0603_100K';
     VALUE='100K';
   end_body;
 end_primitive;
+primitive 'RES_0603_360R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='360R';
+  end_body;
+end_primitive;
+primitive 'RES_0603_120R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='120R';
+  end_body;
+end_primitive;
 primitive 'MAX903_LM334SM-SOP8_MAX903';
   pin
     'VCC':
@@ -614,8 +644,14 @@ primitive 'TFTLCD_4_3_TFT_LCD_4_3_TFTLCD_4';
     'GND3':
       PIN_NUMBER='(26)';
       PINUSE='UNSPEC';
-    'BL_VDD':
+    'BL_VDD1':
       PIN_NUMBER='(28)';
+      PINUSE='UNSPEC';
+    'BL_VDD2':
+      PIN_NUMBER='(30)';
+      PINUSE='UNSPEC';
+    'BL_VDD3':
+      PIN_NUMBER='(29)';
       PINUSE='UNSPEC';
   end_pin;
   body
@@ -798,28 +834,55 @@ primitive 'LT1964-5_LT1964-5-SOT23_LT1964-';
     VALUE='LT1964-5';
   end_body;
 end_primitive;
-primitive 'NCV551SN50T1_LT1964-5-SOT23_NCV';
+primitive 'LP38691DT-5_LP38691DT-5_LP38691';
   pin
     'VIN':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'VOUT':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
     'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'EN':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
-    'NC':
+  end_pin;
+  body
+    PART_NAME='LP38691DT-5';
+    JEDEC_TYPE='LP38691DT-5';
+    VALUE='LP38691DT-5';
+  end_body;
+end_primitive;
+primitive 'MAX3485ESA_LM334SM-SOP8_MAX3485';
+  pin
+    'RO':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'R\E\':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'DE':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'DI':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
-    'OUT':
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'GND':
       PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='NCV551SN50T1';
-    JEDEC_TYPE='LT1964-5-SOT23';
-    VALUE='NCV551SN50T1';
+    PART_NAME='MAX3485ESA';
+    JEDEC_TYPE='LM334SM-SOP8';
+    VALUE='MAX3485ESA';
   end_body;
 end_primitive;
 primitive 'AD8622_LM334SM-SOP8_OPA2350';

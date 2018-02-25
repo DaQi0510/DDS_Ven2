@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jun-01-2017 at 15:31:30}
+{ Using PSTWRITER 16.6.0 d001Feb-24-2018 at 19:13:10}
 primitive 'CAP_0603_0.1UF';
   pin
     '1':
@@ -498,6 +498,36 @@ primitive 'RES_0603_100K';
     VALUE='100K';
   end_body;
 end_primitive;
+primitive 'RES_0603_360R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='360R';
+  end_body;
+end_primitive;
+primitive 'RES_0603_120R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0603';
+    VALUE='120R';
+  end_body;
+end_primitive;
 primitive 'MAX903_LM334SM-SOP8_MAX903';
   pin
     'VCC':
@@ -614,8 +644,14 @@ primitive 'TFTLCD_4_3_TFT_LCD_4_3_TFTLCD_4';
     'GND3':
       PIN_NUMBER='(26)';
       PINUSE='UNSPEC';
-    'BL_VDD':
+    'BL_VDD1':
       PIN_NUMBER='(28)';
+      PINUSE='UNSPEC';
+    'BL_VDD2':
+      PIN_NUMBER='(30)';
+      PINUSE='UNSPEC';
+    'BL_VDD3':
+      PIN_NUMBER='(29)';
       PINUSE='UNSPEC';
   end_pin;
   body
@@ -816,7 +852,40 @@ primitive 'LP38691DT-5_LP38691DT-5_LP38691';
     VALUE='LP38691DT-5';
   end_body;
 end_primitive;
-primitive 'AD8622_LM334SM-SOP8_OPA2350';
+primitive 'MAX3485ESA_LM334SM-SOP8_MAX3485';
+  pin
+    'RO':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'R\E\':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'DE':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'DI':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MAX3485ESA';
+    JEDEC_TYPE='LM334SM-SOP8';
+    VALUE='MAX3485ESA';
+  end_body;
+end_primitive;
+primitive 'AD8622_LM334SM-SOP8_AD8622';
   pin
     'OUTA':
       PIN_NUMBER='(1)';
@@ -846,7 +915,7 @@ primitive 'AD8622_LM334SM-SOP8_OPA2350';
   body
     PART_NAME='AD8622';
     JEDEC_TYPE='LM334SM-SOP8';
-    VALUE='OPA2350';
+    VALUE='AD8622';
   end_body;
 end_primitive;
 primitive 'STM32F407ZGT6_STM32F407ZGT6-LQF';
